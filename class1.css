@@ -1,0 +1,60 @@
+body{
+    overflow: hidden;
+}
+.padd{
+    padding: 0px 36px;
+}
+a img{
+    width: 120px;
+    height: 120px;
+}
+.grey{
+    width: 99.5%;
+    height:1px;
+    border: 0.0px solid #e6e6e6;
+    background-color: #e6e6e6;
+    margin-top: 60px;
+}
+
+.line{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.inputBlueBtn {
+    width: 90%;
+}
+.redBtn {
+    width: 10%;
+}
+
+input{
+    width: 80%;
+    border: 0px;
+    border-bottom: 2px solid #666666 ;
+    outline: none;
+}
+.paint{
+    padding:15px 50px 15px 50px ;
+    border-radius: 6px;
+    background-color:#3399ff;
+    font-size: 16px;
+    color:#666666;
+    border: none;
+    /* margin-right: 40px; */
+}
+.paint1{
+    padding:15px 26px 15px 26px ;
+    border-radius: 6px;
+    background-color:#ff4d4d;
+    font-size: 16px;
+    color:white ;
+    border: none;
+    margin-right: 0px;
+}
+@media screen and (max-width: 1091px) {
+    input {
+        margin-right: 20%;
+    }
+}
